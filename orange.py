@@ -1,0 +1,2 @@
+print("Testowa pomarańcza")
+
