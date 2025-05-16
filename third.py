@@ -1,1 +1,1 @@
-print("Gus")
+print("Gus and bus!")
