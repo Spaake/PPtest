@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Goldman", serif;
+    font-weight: 100;
+    font-style: normal;
+    cursor: default;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    max-width: 2500px;
+    margin: 0 auto 0 auto;
+    background: #ddffdd;
+}
+
+header {
+    width: 100%;
+    height: max-content;
+}
+
+.header__background {
+    background-image: url("images/header-photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -400px;
+    width: 100%;
+    height: 200px;
+}
