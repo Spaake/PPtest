@@ -67,12 +67,14 @@ header {
 
 nav {
     display: flex;
-    aspect-ratio: 30/1;
-    background: #eeeefe;
+    aspect-ratio: 27/1;
+    background: #fefefe;
 }
 
 .navbar__container {
     display: flex;
+    width: 100%;
+
 }
 
 .navbar__logo {
@@ -83,4 +85,20 @@ nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    width: max-content;
+    margin: auto 0;
+}
+
+#navbar__login {
+    width: 15%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.fa-user {
+    margin-right: 5%;
 }
